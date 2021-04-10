@@ -1,0 +1,31 @@
+
+body {
+    background-image: url("assets/images/bckgrnd-img.png");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+   }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color:  #B4D3D6;
+    text-align: center;
+}
+
+.top-left {
+    margin-top: 40px;
+    float: left;
+    font-family: 'Abel', sans-serif;
+}
+
+.intro {
+    margin-top: 100px;
+    float: left;
+    font-family: 'Abel', sans-serif;
+    margin-right: 50%;
+}
