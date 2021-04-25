@@ -5,7 +5,24 @@ body {
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
    }
+
+   @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.name {
+    font-size: 50px;
+    font-family: 'Abel', sans-serif;
+}
 
 footer {
     position: fixed;
@@ -19,6 +36,8 @@ footer {
 
 .top-left {
     margin-top: 40px;
+    margin-right: 50%;
+    margin-bottom: none;
     float: left;
     font-family: 'Abel', sans-serif;
 }
@@ -28,4 +47,12 @@ footer {
     float: left;
     font-family: 'Abel', sans-serif;
     margin-right: 50%;
+}
+
+.portfolio {
+    text-align: center;
+} 
+
+.name {
+    font-size: 50px;
 }
