@@ -46,13 +46,18 @@ footer {
     margin-top: 100px;
     float: left;
     font-family: 'Abel', sans-serif;
-    margin-right: 50%;
+    margin-right: 30%;
 }
 
 .portfolio {
     text-align: center;
+    margin-right: 50%;
 } 
 
 .name {
     font-size: 50px;
+}
+
+.appName {
+    font-size: 30px;
 }
