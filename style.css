@@ -42,6 +42,12 @@ footer {
     font-family: 'Abel', sans-serif;
 }
 
+.bottom-left {
+    margin-left: 100px;
+    margin-top: 30%;
+    width: 60px;
+}
+
 .intro {
     margin-top: 100px;
     float: left;
